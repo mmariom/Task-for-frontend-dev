@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+
+
+import WeatherTable from './Components/WeatherTable'
+import MainHeader from "./Components/MainHeader";
+import Convertor from "./Components/Convertor";
+import {Container} from "@material-ui/core";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+        <div className='App'>
+            <BrowserRouter>
+                <MainHeader/>
+                <Routes>
+                    <Route path="/" element={<WeatherTable />} exact/>
+
+                        <Route path="convertor" element={<Convertor />} exact />
+                        <Route path="*" element={"Nothing to display"} />
+
+                </Routes>
+            </BrowserRouter>
+        </div>
+
+
+
   );
 }
 
