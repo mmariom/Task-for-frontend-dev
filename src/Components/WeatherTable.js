@@ -25,9 +25,11 @@ function WeatherTable() {
 
     ];
 
-
+    const url = "https://www.metaweather.com/api/location/44418"
     const [posts, setPosts] = useState([]);
-    const [fetchedDate, setFetchedDate] = useState("https://www.metaweather.com/api/location/44418/2018/04/30/");
+    const [fetchedDate, setFetchedDate] = useState(`${url}/2018/04/30/`);
+
+
 
 
     // Get Data from API by every single page load

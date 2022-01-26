@@ -10,7 +10,7 @@ function InputDate(props) {
     const dateChanger = (event) => {
 
         var date = event.target.value
-        var year =`/${date[0]}${date[1]}${date[2]}${date[3]}/${date[5]}${date[6]}/${date[8]}${date[9]}/`
+        var year =`/${date[47]}${date[48]}${date[49]}${date[50]}/${date[51]}${date[51]}/${date[54]}${date[55]}/`
         // console.log(year)
         finalYear = year
 
