@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/%7BTask-for-frontend-dev%7D/static/css/main.f7f1ff23.css",
+    "main.js": "/%7BTask-for-frontend-dev%7D/static/js/main.53685f2d.js",
+    "index.html": "/%7BTask-for-frontend-dev%7D/index.html",
+    "main.f7f1ff23.css.map": "/%7BTask-for-frontend-dev%7D/static/css/main.f7f1ff23.css.map",
+    "main.53685f2d.js.map": "/%7BTask-for-frontend-dev%7D/static/js/main.53685f2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7f1ff23.css",
+    "static/js/main.53685f2d.js"
+  ]
+}
