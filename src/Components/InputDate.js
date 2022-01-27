@@ -9,9 +9,10 @@ function InputDate(props) {
     // and  storing data to global variable
     const dateChanger = (event) => {
 
-        const url = "https://www.metaweather.com/api/location/44418"
+       // const url = "https://www.metaweather.com/api/location/44418"
         var date = event.target.value
-        var year =`${url}/${date[0]}${date[1]}${date[2]}${date[3]}/${date[5]}${date[6]}/${date[8]}${date[9]}/`
+        var year =`/${date[0]}${date[1]}${date[2]}${date[3]}/${date[5]}${date[6]}/${date[8]}${date[9]}/`
+        console.log("setup")
         console.log(year)
         finalYear = year
 

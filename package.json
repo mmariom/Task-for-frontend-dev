@@ -1,8 +1,7 @@
 {
-  "homepage": "http://mmariom.github.io/Task-for-frontend-dev",
   "name": "my-app",
+  "proxy": "https://www.metaweather.com/api/location/44418",
   "version": "0.1.0",
-  "proxy" :  "https://www.metaweather.com/api/location/44418/",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -15,7 +14,8 @@
     "axios": "^0.25.0",
     "bootstrap": "^5.1.3",
     "chart.js": "^2.9.4",
-    "heat-index": "^0.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
     "http-proxy-middleware": "^2.0.2",
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.1",

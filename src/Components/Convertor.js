@@ -76,7 +76,7 @@ function Convertor(props) {
     return (
         <div className='convertor'>
 
-            {output}
+           <h2 className='mt-3 mb-3'> {output}</h2>
 
                 < form onSubmit={submidHandler}>
                 <div className='convertor__controls'>
